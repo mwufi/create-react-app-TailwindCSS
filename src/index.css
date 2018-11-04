@@ -6197,6 +6197,33 @@ table {
  * @import "utilities/skew-transforms";
  */
 
+/*  if it's too big, we can't click on the other stuff!*/
+
+.react-draggable {
+  width: 500px;
+}
+
+.container {
+  position: absolute;
+}
+
+.CodeMirror {
+  min-height: 150px;
+}
+
+.foo {
+  padding: 10px;
+  background-color: white;
+}
+
+.handle {
+  text-align: center;
+  background: -webkit-linear-gradient(wheat, #e66465);
+  background: linear-gradient(wheat, #e66465);
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .App {
   text-align: center;
 }
